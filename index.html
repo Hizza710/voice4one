@@ -20,9 +20,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap" rel="stylesheet">
     <!-- デザイン（見た目）をまとめたCSSファイルを読み込む -->
     <link rel="stylesheet" href="index.css">
-
-    <!-- jQuery：JavaScriptをかんたんに書くためのライブラリ -->
-    <!-- 初心者でも使いやすいので、そのままコピペでOKです -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
@@ -51,7 +48,6 @@
 
         <!-- みんなの声が集まるキャンバス：最上部＆メイン表示 -->
         <main class="section section-canvas main-canvas-top">
-            <!-- CSS表示の誤りを削除 -->
             <h2 class="section-title" data-tooltip="ページを開いた瞬間、アートのようにみんなの声が広がるキャンバスです。">みんなの声が集まるキャンバス</h2>
             <div class="canvas-area">
                 <!-- まとめポップアップ表示ボタン（右上） -->
@@ -155,7 +151,6 @@
         <!-- ツールチップ表示用 -->
         <div id="sectionTooltip" class="section-tooltip" style="display:none;"></div>
 
-        <!-- ⑥ JavaScript（jQuery）で動きをつける -->
         <script>
             // ページの読み込みが終わったら、ここから中身を実行する
             $(function () {
@@ -188,7 +183,7 @@
                     $("#questionDisplay").text(question);
                 });
 
-                // 虹色?のアニメーション
+                // 虹色アニメーション
                 var css = document.createElement('style');
                 css.innerHTML = `
     .rainbow-question {

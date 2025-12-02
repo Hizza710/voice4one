@@ -1,3 +1,5 @@
+©︎HIROYUKI NAITO
+
 # 課題名
 MANY VOICES, ONE VOICE — Let’s Share What’s on Our Minds, Freely.
 一人ひとり違って当然。自由にいろんな声を聴こう、皆でひとつを進めよう。
